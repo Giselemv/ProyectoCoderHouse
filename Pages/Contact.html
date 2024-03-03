@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../Css/index.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+
+
+
+    <title>Contactanos</title>
+</head>
+<body>
+
+
+    <header>
+        <div class="header">
+            <h1>Brillando Joyas</h1>
+            <form action="/buscar" class="Search">
+                <input type="text" placeholder="¿Qué estás buscando? ..." name="q">
+                <button type="submit">Buscar</button>
+            </form>
+            <div class="header-icons">
+                <a href="./Contact.html"><i class="fas fa-phone"></i></a>
+
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./products/oro.html">Oro 18K</a></li>
+                <li><a href="./products/plata.html">Plata 925</a></li>
+                <li><a href="./products/oroyplata.html">Oro y Plata</a></li>
+                <li><a href="./Service.html">Servicios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="container-servicio">
+        <h2>CONTACTANOS</h2>
+       
+       
+        <form id="registrationForm" class="form">
+            <label for="firstName">Nombre:</label>
+            <input type="text" id="firstName" name="firstName" required>
+    
+            <label for="lastName">Apellido:</label>
+            <input type="text" id="lastName" name="lastName" required>
+    
+            <label for="phoneNumber">Teléfono:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+    
+            <label for="address">Dirección:</label>
+            <input type="text" id="address" name="address" required>
+    
+            <label for="floor">Piso:</label>
+            <input type="text" id="floor" name="floor">
+    
+            <label for="apartment">Depto:</label>
+            <input type="text" id="apartment" name="apartment">
+    
+            <label for="city">Provincia</label>
+            <select id="city" name="city" required>
+                <option value="" disabled selected>Selecciona una provincia</option>
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="Ciudad Autonoma Buenos Aires">Ciudad Autónoma Buenos Aires</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Salta">Salta</option>
+                <option value="Corrientes">Corrientes</option>
+                <option value="La Rioja">La Rioja</option>
+                <option value="Santa Fe">Santa Fe</option>
+                <option value="Río Negro">Río Negro</option>
+            </select>
+    
+            <label for="birthdate">Fecha de Nacimiento:</label>
+            <input type="date" id="birthdate" name="birthdate" required min="18">
+    
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <button type="submit">Registrar</button>
+        </form>
+    
+
+
+    </section>
+
+    <section class="container-instagram"> 
+        <div class="red">
+            <i class="fa-brands fa-instagram fa-2xl"></i>
+            <h2>BrillandoJoyas</h2>
+        </div>
+        <h3>Estamos en instagram</h3>
+        <button class="instagram-btn"><a target="_blank" href="https://www.instagram.com/">Seguinos</a></button>
+    </section>
+
+    <section class="suscripcion">
+        <div class="texto-suscripcion">
+            <h2>Newsletter</h2>
+            <h1>Ofertas exclusivas</h1>
+                <p>#BrillandoJoyas</p>
+        </div>
+        <div>
+            <form action="/enviar" class="Search">
+                <input type="text" placeholder="Ingresa tu email ..." name="q">
+                <button type="submit">Enviar</button>
+              </form>
+        </div>
+    </section>
+
+
+    <footer class="footer-container">
+        <div class="footer-content">
+            <h3>Categorias</h3>
+            <a href="./products/plata.html">Plata 925</a>
+            <a href="./products/oro.html">Oro 18K</a>
+            <a href="./products/oroyplata.html">Oro y Plata</a>
+            <a href="./ProductsAll.html">Ver todo</a>
+        </div>
+        <div class="footer-content">
+            <h3>Información</h3>
+            <a href="./NorFound.html">Nosotros</a>
+            <a href="./NorFound.html">Preguntas Frecuentes</a>
+            <a href="./Service.html">Servicios</a>
+        </div>
+        <div class="footer-content">
+            <h3>Contacto</h3>
+            <p>5555 - 4948</p>
+            <p>brillandojoyas@gmail.com</p>
+            <p>Av. Libertador 777, Ciudad de Buenos Aires, Argentina.</p>
+        </div>
+        <div class="footer-content">
+            <h3>Sigamos conectados</h3>
+            <div class="redes">
+                <a target="_blank" href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp fa-2xl"></i></i></a>
+                <a target="_blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f fa-2xl"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
