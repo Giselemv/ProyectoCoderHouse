@@ -17,7 +17,7 @@
 <body>
 
 
-    <header>
+    <header class="header-lg">
         <div class="header">
             <h1>Brillando Joyas</h1>
             <form action="/buscar" class="Search">
@@ -25,21 +25,38 @@
                 <button type="submit">Buscar</button>
             </form>
             <div class="header-icons">
-                <a href="./Contact.html"><i class="fas fa-phone"></i></a>
-
+                <a href="./Pages/Contact.html"><i class="fas fa-phone"></i></a>
                 <i class="fas fa-shopping-cart"></i>
             </div>
         </div>
-
-        <nav class="navbar">
+    
+        <nav class="navbar navbar-sm">
             <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./products/oro.html">Oro 18K</a></li>
-                <li><a href="./products/plata.html">Plata 925</a></li>
-                <li><a href="./products/oroyplata.html">Oro y Plata</a></li>
-                <li><a href="./Service.html">Servicios</a></li>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./Pages/products/oro.html">Oro 18K</a></li>
+                <li><a href="./Pages/products/plata.html">Plata 925</a></li>
+                <li><a href="./Pages/products/oroyplata.html">Oro y Plata</a></li>
+                <li><a href="./Pages/Service.html">Servicios</a></li>
             </ul>
         </nav>
+        <div class="pos-f-t">
+            <div class="collapse custom-bg-color" id="navbarToggleExternalContent">
+              <div class="custom-bg-color p-4">
+                <ul class="navbar-nav ">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./Pages/products/oro.html">Oro 18K</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./Pages/products/plata.html">Plata 925</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./Pages/products/oroyplata.html">Oro y Plata</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./Pages/Service.html">Servicios</a></li>
+                </ul>
+              </div>
+            </div>
+            <nav class="navbar navbar-light navbar-sm">
+              <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </nav>
+          </div> 
     </header>
 
 
@@ -94,5 +111,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
 </body>
 </html>
